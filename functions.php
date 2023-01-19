@@ -12,9 +12,9 @@ require_once('inc/taxonomies/_taxonomies-includes.php');
 add_filter('ot_theme_mode','__return_true');
 add_filter('ot_show_pages','__return_false');
 add_filter('ot_child_theme_mode','__return_false');
-// require_once('plugins/option-tree/ot-loader.php');
-// require_once('inc/options/_option-includes.php');
+require_once('plugins/option-tree/ot-loader.php');
+require_once('inc/options/_option-includes.php');
 
-// require_once('inc/general-functions.php');
+require_once('inc/general-functions.php');
 
  
